@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <header>
+        <div class="main-container">
+            <nav>
+                <div class="logo">
+                    <a href="#"><span>MUZAINA</span>IQBAL</a>
+                </div>
+                <div class="list-darkmode-menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <label class="mode">
+                        <input type="checkbox" checked="checked " id="darkModeButton">
+                        <!-- yahan pr font-awesome se in sb 'i' ki link leni he  -->
+
+                        <i class="fa-solid fa-sun"></i>
+                        <i class="fa-solid fa-moon"></i>
+                    </label>
+                    <button class="hamburger ">
+                        <div class="bar"></div>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- hero-section -->
+
+    <section id="home" class="home">
+        <div class="container">
+            <div class="home-info">
+                <div class="left">
+                    <h3>Hello , I'm</h3>
+                    <h1>Muzaina Iqbal </h1>
+                    <h4>And I'm a <span class="multiple"></span> </h4>
+                    <p>
+                        Hi! I'm Muzaina Iqbal, a passionate front-end developer specializing
+                        in translating design concepts into seamless and interactive web
+                        experiences using HTML, CSS , and Javascript.
+                    </p>
+
+                    <div class="social">
+                        <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"> <i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"> <i class="fa-brands fa-github"></i></a>
+                        <a href="#"> <i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            Download CV
+                        </button>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="profile">
+                        <img class="image" src="pro-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about-section -->
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-left">
+                    <!-- image ka bg remove krna he -->
+                    <div class="about-img">
+                        <img src="pro-img.png" alt="">
+                    </div>
+                </div>
+                <div class="about-right">
+                    <div class="about-info">
+                        <h2>About <span>Me</span> </h2>
+                        <h3>Front-End Developer</h3>
+                        <p>
+                            I'm a Frontend Developer passionate about turning ideas into clean, responsive websites. I
+                            specialize in HTML, CSS, and JavaScript, focusing on pixel-perfect UI and smooth user
+                            experience across all devices. I love fixing blurry text, broken layouts, and making designs
+                            look sharp on every screen size. My goal is simple: build fast, accessible, and beautiful
+                            interfaces that users love to interact with.
+                        </p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services-section -->
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class=""> Our <span>Services</span> </h2>
+            <div class="services-box">
+                <div class="box">
+                    <!-- yahan pr font-awesome se in sb 'i' ki link leni he  -->
+
+                    <div class="icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>
+                        I'm a Web Developer who builds fast, secure, and scalable websites from front to back.
+                    </p>
+                    <div class="services-btn">
+                        <button>Read More</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <!-- yahan pr font-awesome se in sb 'i' ki link leni he  -->
+
+                    <div class="icon">
+                        <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>
+                        I'm a Digital Marketing Specialist who helps brands grow their online presence through smart
+                        strategy and creative campaigns.
+                    </p>
+                    <div class="services-btn">
+                        <button>Read More</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <!-- yahan pr font-awesome se in sb 'i' ki link leni he  -->
+
+                    <div class="icon">
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+                    <h3>Web Designing</h3>
+                    <p>
+                        I'm a Web Designer who crafts clean, modern, and user-friendly websites that blend aesthetics
+                        with functionality.
+                    </p>
+                    <div class="services-btn">
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio-section -->
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Latest <span>Project</span></h2>
+            <div class="portfolio-wrapper">
+
+                <div class="portfolio-box">
+                    <img class="UI-one" src="https://cdn.dribbble.com/userupload/26312390/file/original-13f06c5e3de780dc7b50a9dd1c589710.png?format=webp&resize=400x300&vertical=center" alt="" class="">
+                    <div class="portfolio-info">
+                        <h4>Web Design</h4>
+                        <p>I'm a creative Web Designer turning ideas into clean, responsive, and visually stunning
+                            websites.</p>
+
+                        <a href="#"><i class="fa-brands fa-figma"></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img class="UI-two" src="https://web-development-in-los-angeles.com/wp-content/uploads/2026/04/wdla-svc-custom-web-development-feature-1024x683.png" alt="">
+                    <div class="portfolio-info">
+                        <h4>Web Development</h4>
+                        <p>I build fast, secure, and scalable websites from front to back.</p>
+
+                        <a href="#"><i class="fa-solid fa-code"></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img class="UI-three" src="https://wallpapercave.com/wp/wp11742795.jpg" alt="">
+                    <div class="portfolio-info">
+                        <h4>UI/UX Design</h4>
+                        <p>Crafting intuitive interfaces that users love to interact with.</p>
+
+                        <a href="#"><i class="fa-brands fa-html5"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact-section -->
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact <span>Me!</span></h2>
+            <form>
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-info">
+                    <p>Copyright &copy; 2026 by How To Dev | All Rights Reserved. </p>
+                </div>
+                <div class="icon-top">
+                    <a id="icon" href="#home">
+                        <i class="fa-solid fa-arrow-up"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- 9:30s ki dekh li -->
